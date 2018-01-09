@@ -16,11 +16,13 @@ Plugin 'docunext/closetag.vim'
 Plugin 'tpope/vim-sleuth'
 Plugin 'itchyny/lightline.vim'
 Plugin 'junegunn/fzf.vim'
+Plugin 'valloric/youcompleteme'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+" Some of these are brought over from https://github.com/statico/dotfiles
 set autoindent              " Carry over indenting from previous line
 set backspace=indent,eol,start
                             " Allow backspace beyond insertion point
@@ -35,7 +37,7 @@ set incsearch               " Search as you type
 set laststatus=2            " Always show the status bar
 set linebreak               " Break long lines by word, not char
 set shiftwidth=2            " Number of spaces to shift for autoindent or >,<
-set tabstop=2               " The One True Tab
+set tabstop=2               " Tabs are two spaces 
 set notitle                 " Don't set the title of the Vim window
 
 let &colorcolumn="81,101"   " Show 80 and 100 column limit
@@ -50,7 +52,7 @@ let g:ale_sign_column_always = 1
 highlight link ALEWarningSign String
 highlight link ALEErrorSign Title
 
-" Lightline
+" Lightline (source https://github.com/statico/dotfiles)
 let g:lightline = {
 \ 'colorscheme': 'wombat',
 \ 'active': {
@@ -92,7 +94,7 @@ endfunction
 
 autocmd User ALELint call s:MaybeUpdateLightline()
 
-" Update and show lightline but only if it's visible (e.g., not in Goyo)
+" Update and show lightline but only if it's visible
 function! s:MaybeUpdateLightline()
   if exists('#lightline')
     call lightline#update()
@@ -106,6 +108,7 @@ let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
   \ 'ctrl-x': 'split',
   \ 'ctrl-v': 'vsplit' }
+nmap <F3> :YcmCompleter GoToDefinition<CR>
 
 " ALE
 let g:ale_lint_on_text_changed = 'never'

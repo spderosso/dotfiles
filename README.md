@@ -11,9 +11,14 @@ https://github.com/Valloric/YouCompleteMe#mac-os-x
 
 Useful things to know:
 
-:YcmCompleter GoToDefinition (equivalent to F3 in Eclipse)
-Ctrl-o will take you back
-:YcmCompleter GetType
+In `vim`:
+- `f`: will open fzf. `Ctrl-c` to exit, `Enter` to open the selected file in the
+  current buffer, `Ctrl-v` to open it in a vertical split
+- `l`: toggles ALE
+- `F3`: go to definition. `Ctrl-o` will take you back
+
+In the terminal:
+- `Ctrl-T` will open fzf
 
 Resources
 ---------
