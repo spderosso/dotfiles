@@ -1,3 +1,7 @@
+# Always ask for confirmation when removing a file
+alias rm='rm -i'
+
+# fzf
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 # Have FZF use ag instead of grep
