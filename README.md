@@ -20,6 +20,8 @@ In `vim`:
 In the terminal:
 - `Ctrl-T` will open fzf
 
+Also, use Novel theme with Consolas 14pt
+
 Resources
 ---------
 
