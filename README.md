@@ -20,7 +20,10 @@ In `vim`:
 In the terminal:
 - `Ctrl-T` will open fzf
 
-Also, use Novel theme with Consolas 14pt
+Also:
+- use Novel theme with Consolas 14pt
+- `git config --global core.excludesfile ~/.gitignore_global` and add `*.swp`
+  and `*~`
 
 Resources
 ---------
