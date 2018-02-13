@@ -17,6 +17,7 @@ Plugin 'tpope/vim-sleuth'
 Plugin 'itchyny/lightline.vim'
 Plugin 'junegunn/fzf.vim'
 Plugin 'valloric/youcompleteme'
+Plugin 'jparise/vim-graphql'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
