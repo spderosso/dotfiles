@@ -14,7 +14,7 @@ Useful things to know:
 In `vim`:
 - `f`: will open fzf. `Ctrl-c` to exit, `Enter` to open the selected file in the
   current buffer, `Ctrl-v` to open it in a vertical split
-- `l`: toggles ALE
+- `l`: toggles ALE, `ln` to go to the next error, `lp` to go to the previous one
 - `F3`: go to definition. `Ctrl-o` will take you back
 
 In the terminal:

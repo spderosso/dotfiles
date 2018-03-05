@@ -104,6 +104,8 @@ endfunction
 
 " Key bindings
 nmap l :ALEToggle<CR>
+nmap ln :ALENext<CR>
+nmap lp :ALEPrevious<CR>
 nmap f :Files<CR>
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
