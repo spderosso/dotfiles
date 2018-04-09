@@ -18,7 +18,7 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'junegunn/fzf.vim'
 Plugin 'valloric/youcompleteme'
 Plugin 'jparise/vim-graphql'
-Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'ntpeters/vim-better-whitespace'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -117,5 +117,11 @@ nmap <F3> :YcmCompleter GoToDefinition<CR>
 " ALE
 let g:ale_lint_on_text_changed = 'never'
 let g:ale_lint_on_enter = 0
+
+" Whitespace
+let g:strip_whitespace_on_save = 1
+let g:strip_whitelines_at_eof = 1
+let g:better_whitespace_enabled = 1
+let g:show_spaces_that_precede_tabs = 1
 
 syntax on

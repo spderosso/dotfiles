@@ -16,7 +16,7 @@ In `vim`:
   current buffer, `Ctrl-v` to open it in a vertical split
 - `l`: toggles ALE, `ln` to go to the next error, `lp` to go to the previous one
 - `F3`: go to definition. `Ctrl-o` will take you back
-- to remove trailing whitespaces `:FixWhitespace`
+- trailing whitespaces are removed on save
 
 In the terminal:
 - `Ctrl-T` will open fzf
