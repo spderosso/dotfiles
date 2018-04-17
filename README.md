@@ -17,6 +17,8 @@ In `vim`:
 - `l`: toggles ALE, `ln` to go to the next error, `lp` to go to the previous one
 - `F3`: go to definition. `Ctrl-o` will take you back
 - trailing whitespaces are removed on save
+- open the file tree with `Ctrl-n`. On the tree, `Enter` opens
+the file, `Ctrl-v` opens it in a vertical split (just like with fzf)
 
 In the terminal:
 - `Ctrl-T` will open fzf

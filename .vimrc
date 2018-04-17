@@ -19,6 +19,8 @@ Plugin 'junegunn/fzf.vim'
 Plugin 'valloric/youcompleteme'
 Plugin 'jparise/vim-graphql'
 Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'yggdroot/indentline'
+Plugin 'scrooloose/nerdtree'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -39,7 +41,7 @@ set incsearch               " Search as you type
 set laststatus=2            " Always show the status bar
 set linebreak               " Break long lines by word, not char
 set shiftwidth=2            " Number of spaces to shift for autoindent or >,<
-set tabstop=2               " Tabs are two spaces 
+set tabstop=2               " Tabs are two spaces
 set notitle                 " Don't set the title of the Vim window
 
 let &colorcolumn="81,101"   " Show 80 and 100 column limit
@@ -113,6 +115,9 @@ let g:fzf_action = {
   \ 'ctrl-x': 'split',
   \ 'ctrl-v': 'vsplit' }
 nmap <F3> :YcmCompleter GoToDefinition<CR>
+" Open NERDTree with CTRL+n
+map <C-n> :NERDTreeToggle<CR>
+let NERDTreeMapOpenVSplit='<C-v>'
 
 " ALE
 let g:ale_lint_on_text_changed = 'never'
