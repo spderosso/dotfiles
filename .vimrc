@@ -21,6 +21,8 @@ Plugin 'jparise/vim-graphql'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'yggdroot/indentline'
 Plugin 'scrooloose/nerdtree'
+" %S
+Plugin 'tpope/vim-abolish'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -128,5 +130,6 @@ let g:strip_whitespace_on_save = 1
 let g:strip_whitelines_at_eof = 1
 let g:better_whitespace_enabled = 1
 let g:show_spaces_that_precede_tabs = 1
+
 
 syntax on

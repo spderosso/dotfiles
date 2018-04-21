@@ -19,6 +19,7 @@ In `vim`:
 - trailing whitespaces are removed on save
 - open the file tree with `Ctrl-n`. On the tree, `Enter` opens
 the file, `Ctrl-v` opens it in a vertical split (just like with fzf)
+- `%S` for search and replace that respects case variants
 
 In the terminal:
 - `Ctrl-T` will open fzf
