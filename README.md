@@ -1,13 +1,13 @@
 Steps
 -----
 
-(because we need vim > 8)
-```
-brew install vim
-```
-
-follow instructions in
-https://github.com/Valloric/YouCompleteMe#mac-os-x
+- `brew install vim` (because we need vim > 8)
+- `brew install fzf`, `(brew --prefix)/opt/fzf/install` (
+    see https://github.com/junegunn/fzf#using-homebrew-or-linuxbrew)
+- `brew install the_silver_searcher` (
+    see https://github.com/ggreer/the_silver_searcher)
+- follow instructions in https://github.com/Valloric/YouCompleteMe#mac-os-x
+    to get autocomplete working
 
 Useful things to know:
 
