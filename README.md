@@ -20,6 +20,7 @@ In `vim`:
 - open the file tree with `Ctrl-n`. On the tree, `Enter` opens
 the file, `Ctrl-v` opens it in a vertical split (just like with fzf)
 - `%S` for search and replace that respects case variants
+- `:lopen` to expand the status bar message when errors appear truncated
 
 In the terminal:
 - `Ctrl-T` will open fzf

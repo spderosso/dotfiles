@@ -131,5 +131,7 @@ let g:strip_whitelines_at_eof = 1
 let g:better_whitespace_enabled = 1
 let g:show_spaces_that_precede_tabs = 1
 
+" YCM
+let g:ycm_always_populate_location_list = 1 " populate location list so that we can expand long messages
 
 syntax on
