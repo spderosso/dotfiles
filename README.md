@@ -9,7 +9,13 @@ Steps
 - follow instructions in https://github.com/Valloric/YouCompleteMe#mac-os-x
     to get autocomplete working
 
-Useful things to know:
+Also:
+- use Novel theme with Consolas 14pt
+- `git config --global core.excludesfile ~/.gitignore_global` and add `*.swp`
+  and `*~`
+
+Docs
+----
 
 In `vim`:
 - `f`: will open fzf. `Ctrl-c` to exit, `Enter` to open the selected file in the
@@ -24,11 +30,8 @@ the file, `Ctrl-v` opens it in a vertical split (just like with fzf)
 
 In the terminal:
 - `Ctrl-T` will open fzf
+- To search for a string in files use `ag <pattern>`
 
-Also:
-- use Novel theme with Consolas 14pt
-- `git config --global core.excludesfile ~/.gitignore_global` and add `*.swp`
-  and `*~`
 
 Resources
 ---------
