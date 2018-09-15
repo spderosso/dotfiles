@@ -32,6 +32,8 @@ In the terminal:
 - `Ctrl-T` will open fzf
 - To search for a string in files use `ag <pattern>`
 
+To temporarily disable all plugins invoke `vim` with the `--noplugins` flag
+
 
 Resources
 ---------
