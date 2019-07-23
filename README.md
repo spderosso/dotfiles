@@ -34,6 +34,9 @@ In the terminal:
 
 To temporarily disable all plugins invoke `vim` with the `--noplugins` flag
 
+If you update vim, you might have to update the installed plugins. To do
+so run `:PluginUpdate`
+
 
 Resources
 ---------
