@@ -31,6 +31,7 @@ the file, `Ctrl-v` opens it in a vertical split (just like with fzf)
 In the terminal:
 - `Ctrl-T` will open fzf
 - To search for a string in files use `ag <pattern>`
+- To open in vim a set of files matching a pattern use ``vim `ag \<pattern\> -l```
 
 To temporarily disable all plugins invoke `vim` with the `--noplugins` flag
 
