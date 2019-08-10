@@ -32,6 +32,7 @@ In the terminal:
 - `Ctrl-T` will open fzf
 - To search for a string in files use `ag <pattern>`
 - To open in vim a set of files matching a pattern use ``vim `ag \<pattern\> -l```
+- To search for patterns in filenames use `ag -g <pattern>`
 
 To temporarily disable all plugins invoke `vim` with the `--noplugins` flag
 
