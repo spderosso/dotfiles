@@ -33,6 +33,7 @@ In the terminal:
 - To search for a string in files use `ag <pattern>`
 - To open in vim a set of files matching a pattern use ``vim `ag \<pattern\> -l```
 - To search for patterns in filenames use `ag -g <pattern>`
+- To include hidden files in the search use `ag --hidden <pattern>`
 
 To temporarily disable all plugins invoke `vim` with the `--noplugins` flag
 
