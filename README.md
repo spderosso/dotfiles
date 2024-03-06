@@ -44,4 +44,4 @@ so run `:PluginUpdate`
 Resources
 ---------
 
-https://statico.github.io/vim3.html
+[https://statico.github.io/vim3.html](https://github.com/statico/dotfiles)https://github.com/statico/dotfiles
